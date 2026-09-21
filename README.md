@@ -61,3 +61,13 @@ El workflow `.github/workflows/pages.yml` activa GitHub Pages y publica el sitio
 en cada push a la rama por defecto. La web queda en:
 
 <https://bittsuarez.github.io/mi-landing/>
+
+## Publicar también en Vercel
+
+El repo ya trae `vercel.json` y no necesita compilación. En
+<https://vercel.com/new>: *Import Git Repository* → `bittsuarez/mi-landing`
+→ *Deploy*. Framework Preset: **Other**, sin *Build Command* y con *Output
+Directory* en la raíz (Vercel lo detecta solo).
+
+La rama de producción es la rama por defecto del repo
+(`claude/vibrant-mayer-c59i6i`). Cada push la vuelve a desplegar.
