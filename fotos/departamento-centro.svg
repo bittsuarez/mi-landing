@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Ilustración de un edificio de departamentos con balcones en el centro de la ciudad">
+  <defs>
+    <linearGradient id="c2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ece6da"/>
+      <stop offset="1" stop-color="#cfc5b3"/>
+    </linearGradient>
+    <linearGradient id="c2face" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f3eee3"/>
+      <stop offset="1" stop-color="#e2dbcc"/>
+    </linearGradient>
+    <linearGradient id="c2glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8e3b4"/>
+      <stop offset="1" stop-color="#edc673"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#c2sky)"/>
+  <circle cx="236" cy="150" r="58" fill="#f6eedd" opacity=".8"/>
+
+  <!-- skyline de fondo -->
+  <g fill="#c0b6a3">
+    <rect x="0" y="392" width="150" height="468"/>
+    <rect x="132" y="330" width="118" height="530"/>
+    <rect x="980" y="358" width="130" height="502"/>
+    <rect x="1090" y="424" width="110" height="436"/>
+  </g>
+  <g fill="#b3a894">
+    <rect x="228" y="440" width="126" height="420"/>
+    <rect x="872" y="410" width="126" height="450"/>
+  </g>
+  <g fill="#a99d88" opacity=".7">
+    <rect x="24" y="428" width="26" height="34"/><rect x="72" y="428" width="26" height="34"/>
+    <rect x="24" y="492" width="26" height="34"/><rect x="72" y="492" width="26" height="34"/>
+    <rect x="160" y="372" width="28" height="36"/><rect x="204" y="372" width="28" height="36"/>
+    <rect x="160" y="440" width="28" height="36"/><rect x="204" y="440" width="28" height="36"/>
+    <rect x="1010" y="400" width="30" height="38"/><rect x="1058" y="400" width="30" height="38"/>
+    <rect x="1010" y="468" width="30" height="38"/><rect x="1058" y="468" width="30" height="38"/>
+  </g>
+
+  <!-- torre principal -->
+  <rect x="368" y="176" width="466" height="684" fill="url(#c2face)"/>
+  <rect x="742" y="176" width="92" height="684" fill="#d5cdbd"/>
+  <rect x="356" y="160" width="490" height="24" rx="5" fill="#cec5b3"/>
+
+  <!-- pisos: ventanas + balcones -->
+  <g>
+    <g fill="url(#c2glow)">
+      <rect x="404" y="222" width="88" height="70" rx="3"/><rect x="530" y="222" width="88" height="70" rx="3"/>
+      <rect x="404" y="350" width="88" height="70" rx="3"/><rect x="656" y="350" width="88" height="70" rx="3"/>
+      <rect x="530" y="478" width="88" height="70" rx="3"/><rect x="656" y="478" width="88" height="70" rx="3"/>
+      <rect x="404" y="606" width="88" height="70" rx="3"/><rect x="530" y="606" width="88" height="70" rx="3"/>
+    </g>
+    <g fill="#bcc8ce">
+      <rect x="656" y="222" width="88" height="70" rx="3"/>
+      <rect x="530" y="350" width="88" height="70" rx="3"/>
+      <rect x="404" y="478" width="88" height="70" rx="3"/>
+      <rect x="656" y="606" width="88" height="70" rx="3"/>
+    </g>
+    <!-- losas de balcón -->
+    <g fill="#d9d1c1">
+      <rect x="380" y="300" width="352" height="12" rx="4"/>
+      <rect x="380" y="428" width="352" height="12" rx="4"/>
+      <rect x="380" y="556" width="352" height="12" rx="4"/>
+      <rect x="380" y="684" width="352" height="12" rx="4"/>
+    </g>
+    <!-- barandales -->
+    <g stroke="#a99d88" stroke-width="4" opacity=".85">
+      <path d="M392 300 L392 268 M732 300 L732 268 M392 284 L732 284"/>
+      <path d="M392 428 L392 396 M732 428 L732 396 M392 412 L732 412"/>
+      <path d="M392 556 L392 524 M732 556 L732 524 M392 540 L732 540"/>
+      <path d="M392 684 L392 652 M732 684 L732 652 M392 668 L732 668"/>
+    </g>
+  </g>
+
+  <!-- torre lateral: ventanas estrechas -->
+  <g fill="#c6bdab">
+    <rect x="768" y="230" width="42" height="62" rx="3"/><rect x="768" y="358" width="42" height="62" rx="3"/>
+    <rect x="768" y="486" width="42" height="62" rx="3"/><rect x="768" y="614" width="42" height="62" rx="3"/>
+  </g>
+
+  <!-- planta baja: acceso -->
+  <rect x="368" y="722" width="466" height="138" fill="#e7e0d1"/>
+  <rect x="470" y="744" width="118" height="116" rx="4" fill="#4b4438"/>
+  <rect x="482" y="756" width="94" height="86" rx="3" fill="url(#c2glow)"/>
+  <rect x="624" y="744" width="146" height="116" rx="4" fill="#cdd6dc"/>
+  <rect x="440" y="712" width="330" height="14" rx="5" fill="#cec5b3"/>
+
+  <!-- calle y banqueta -->
+  <rect y="860" width="1200" height="40" fill="#8d8476"/>
+  <rect y="848" width="1200" height="14" fill="#a79d8c"/>
+
+  <!-- árboles de banqueta -->
+  <g fill="#7d8a6c">
+    <rect x="300" y="772" width="14" height="80" rx="5"/>
+    <circle cx="307" cy="754" r="46"/>
+    <rect x="898" y="784" width="14" height="68" rx="5"/>
+    <circle cx="905" cy="768" r="40"/>
+  </g>
+</svg>

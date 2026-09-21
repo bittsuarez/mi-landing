@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Ilustración de un terreno delimitado con estacas frente a montañas">
+  <defs>
+    <linearGradient id="c3sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7ebef"/>
+      <stop offset="1" stop-color="#c4cfd8"/>
+    </linearGradient>
+    <linearGradient id="c3land" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cdc8b4"/>
+      <stop offset="1" stop-color="#b4ad96"/>
+    </linearGradient>
+    <linearGradient id="c3plot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8d4c2"/>
+      <stop offset="1" stop-color="#c3bda7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#c3sky)"/>
+  <circle cx="982" cy="146" r="54" fill="#eef2f5" opacity=".9"/>
+
+  <!-- nubes -->
+  <g fill="#eef1f4" opacity=".75">
+    <ellipse cx="248" cy="164" rx="86" ry="30"/><ellipse cx="308" cy="154" rx="62" ry="26"/>
+    <ellipse cx="712" cy="118" rx="70" ry="24"/><ellipse cx="764" cy="112" rx="48" ry="20"/>
+  </g>
+
+  <!-- montañas lejanas -->
+  <path d="M0 470 L188 322 L322 448 L442 356 L612 492 L0 492 Z" fill="#9aa8b4"/>
+  <path d="M188 322 L262 380 L216 420 Z" fill="#b6c1cb"/>
+  <path d="M442 356 L500 402 L466 434 Z" fill="#b6c1cb"/>
+  <path d="M560 492 L744 336 L900 462 L1030 378 L1200 500 L1200 520 L560 520 Z" fill="#8a97a4"/>
+  <path d="M744 336 L812 396 L768 432 Z" fill="#aab5c0"/>
+
+  <!-- lomas intermedias -->
+  <path d="M0 512 C 200 480 380 516 560 520 C 760 524 980 492 1200 516 L1200 560 L0 560 Z" fill="#7f8c94"/>
+  <g fill="#6d7a82">
+    <circle cx="146" cy="516" r="22"/><circle cx="182" cy="522" r="16"/>
+    <circle cx="1028" cy="514" r="24"/><circle cx="1068" cy="520" r="17"/>
+  </g>
+
+  <!-- terreno -->
+  <rect y="548" width="1200" height="352" fill="url(#c3land)"/>
+
+  <!-- parcela delimitada en perspectiva -->
+  <path d="M242 700 L958 700 L1112 876 L88 876 Z" fill="url(#c3plot)"/>
+  <path d="M242 700 L958 700 L1112 876 L88 876 Z" fill="none" stroke="#8d8570" stroke-width="5" stroke-dasharray="26 18"/>
+
+  <!-- surcos del terreno -->
+  <g stroke="#b0a992" stroke-width="3" opacity=".7">
+    <path d="M300 744 L1010 744"/>
+    <path d="M272 800 L1058 800"/>
+  </g>
+
+  <!-- estacas de mojón -->
+  <g>
+    <rect x="236" y="652" width="10" height="56" rx="3" fill="#6f6a5a"/>
+    <path d="M228 646 L262 646 L255 664 L235 664 Z" fill="#d98b4a"/>
+    <rect x="954" y="652" width="10" height="56" rx="3" fill="#6f6a5a"/>
+    <path d="M946 646 L980 646 L973 664 L953 664 Z" fill="#d98b4a"/>
+    <rect x="84" y="822" width="11" height="60" rx="3" fill="#6f6a5a"/>
+    <path d="M76 816 L112 816 L104 834 L83 834 Z" fill="#d98b4a"/>
+    <rect x="1106" y="822" width="11" height="60" rx="3" fill="#6f6a5a"/>
+    <path d="M1098 816 L1134 816 L1126 834 L1105 834 Z" fill="#d98b4a"/>
+  </g>
+
+  <!-- camino de acceso -->
+  <path d="M0 592 C 220 600 420 640 600 700" fill="none" stroke="#c9c4b1" stroke-width="26" stroke-linecap="round"/>
+  <path d="M0 592 C 220 600 420 640 600 700" fill="none" stroke="#b6b09a" stroke-width="4" stroke-dasharray="20 22"/>
+
+  <!-- vegetación dispersa -->
+  <g fill="#7f8f74">
+    <rect x="1024" y="596" width="12" height="52" rx="4"/><circle cx="1030" cy="580" r="38"/>
+    <rect x="152" y="620" width="10" height="44" rx="4"/><circle cx="157" cy="606" r="30"/>
+  </g>
+  <g fill="#9aa389" opacity=".85">
+    <circle cx="760" cy="600" r="18"/><circle cx="792" cy="608" r="13"/>
+    <circle cx="400" cy="624" r="15"/><circle cx="428" cy="630" r="11"/>
+    <circle cx="620" cy="836" r="14"/><circle cx="880" cy="820" r="12"/>
+  </g>
+</svg>
