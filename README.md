@@ -20,12 +20,17 @@ HTML, CSS y JavaScript puros: sin dependencias, sin build, sin servidor.
    - las 3 propiedades destacadas (título, metros, precio y el `data-wa-text` de cada tarjeta)
    - dirección, horario y correo de la sección de contacto
 
-3. Para las fotos: cada tarjeta usa un degradado de relleno. Sustitúyelo por una imagen real
-   añadiendo en `styles.css`:
+3. Para las fotos: la carpeta `fotos/` trae ilustraciones vectoriales (`.svg`) como
+   imágenes de arranque. Para poner fotos reales basta con cambiar el `src` en
+   `index.html`, sin tocar el CSS:
 
-   ```css
-   .card-media[data-img="1"] { background: url("fotos/casa-1.jpg") center/cover; }
+   ```html
+   <img class="card-img" src="fotos/casa-1.jpg" alt="Describe la propiedad">
    ```
+
+   Las tarjetas recortan a 4:3 con `object-fit: cover`, así que cualquier proporción
+   encaja sin deformarse. Conviene subir las fotos a ~1200 px de ancho para que pesen poco,
+   y escribir un `alt` que describa la propiedad (ayuda al buscador y a los lectores de pantalla).
 
 ## Cómo funciona el contacto
 
@@ -33,6 +38,26 @@ HTML, CSS y JavaScript puros: sin dependencias, sin build, sin servidor.
 - El formulario no envía nada a ningún servidor: arma el mensaje con los datos
   (nombre, operación, tipo, zona, presupuesto y comentario) y abre WhatsApp para
   que la persona solo pulse enviar. Por eso no hace falta backend ni base de datos.
+
+## Imágenes
+
+| Archivo                          | Dónde se usa                                  |
+| -------------------------------- | --------------------------------------------- |
+| `fotos/hero-casa-moderna.svg`    | Imagen grande junto al titular                |
+| `fotos/casa-los-robles.svg`      | Tarjeta 1                                     |
+| `fotos/departamento-centro.svg`  | Tarjeta 2                                     |
+| `fotos/terreno-vista-norte.svg`  | Tarjeta 3                                     |
+| `fotos/og-portada.png`           | Vista previa al compartir el enlace           |
+
+Los `.svg` son ilustraciones vectoriales: pesan unos 4 KB cada una, se ven nítidas en
+cualquier pantalla y no necesitan versiones @2x. Están pensadas para sustituirse por
+fotos reales cuando las tengas.
+
+`og-portada.png` (1200×630) es la imagen que se ve cuando alguien pega el enlace en
+WhatsApp, Facebook o LinkedIn. Su dirección está fija en el `<meta property="og:image">`
+de `index.html`, apuntando a GitHub Pages: si publicas en tu propio dominio, cambia esa
+URL o la vista previa seguirá leyendo la imagen desde Pages. Tiene que ser una URL
+absoluta y un formato de mapa de bits — los `.svg` no se muestran en las vistas previas.
 
 ## Publicar
 
@@ -54,6 +79,7 @@ python3 -m http.server 8000
 | `index.html` | Estructura y textos                            |
 | `styles.css` | Estilos, variables de color y modo oscuro      |
 | `script.js`  | Configuración del número y lógica del formulario |
+| `fotos/`     | Imágenes del hero, de las tarjetas y la portada para compartir |
 
 ## Publicación automática
 
