@@ -5,7 +5,7 @@
 // Número de WhatsApp en formato internacional, SOLO dígitos.
 // Incluye código de país y NO uses "+", espacios ni guiones.
 // Ejemplos: México "5215512345678" · España "34612345678" · Argentina "5491123456789"
-const WHATSAPP_NUMERO = "5215512345678";
+const WHATSAPP_NUMERO = "000000000000"; // ← CÁMBIALO por tu número real
 
 // Nombre del negocio (se usa en el mensaje del formulario)
 const NEGOCIO = "Altura Inmobiliaria";

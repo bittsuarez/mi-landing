@@ -54,3 +54,10 @@ python3 -m http.server 8000
 | `index.html` | Estructura y textos                            |
 | `styles.css` | Estilos, variables de color y modo oscuro      |
 | `script.js`  | Configuración del número y lógica del formulario |
+
+## Publicación automática
+
+El workflow `.github/workflows/pages.yml` activa GitHub Pages y publica el sitio
+en cada push a la rama por defecto. La web queda en:
+
+<https://bittsuarez.github.io/mi-landing/>
