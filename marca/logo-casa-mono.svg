@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Altura Inmobiliaria">
+  <!-- Una sola tinta, fondo transparente: para sellos, marcas de agua y fondos de color -->
+  <g transform="translate(0 50)" fill="#16181C">
+    <g fill="none" stroke="#16181C" stroke-width="80" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 370 486 V 800 H 710 V 486"/>
+      <path d="M 290 560 L 430 431"/>
+      <path d="M 790 560 L 650 431"/>
+      <path d="M 540 680 V 300"/>
+    </g>
+    <path d="M 425 305 L 540 170 L 655 305 Z"/>
+  </g>
+</svg>

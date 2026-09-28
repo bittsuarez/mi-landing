@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Altura Inmobiliaria">
+  <rect width="1080" height="1080" fill="#16181C"/>
+
+  <g transform="translate(0 50)" fill="none" stroke="#FFFFFF" stroke-width="80" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Cuerpo de la casa: muros y base -->
+    <path d="M 370 486 V 800 H 710 V 486"/>
+    <!-- Tejado abierto en la cumbrera: el hueco deja pasar la flecha sin tocarla.
+         Se dibuja despues para tapar el remate de los muros. -->
+    <path d="M 290 560 L 430 431"/>
+    <path d="M 790 560 L 650 431"/>
+  </g>
+
+  <g transform="translate(0 50)" fill="#25D366">
+    <path d="M 540 680 V 300" fill="none" stroke="#25D366" stroke-width="80" stroke-linecap="round"/>
+    <path d="M 425 305 L 540 170 L 655 305 Z"/>
+  </g>
+</svg>
