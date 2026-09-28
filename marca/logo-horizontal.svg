@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-label="Altura Inmobiliaria">
+  <rect width="1200" height="460" fill="#16181C"/>
+
+  <g transform="translate(-37.9 -42.9) scale(0.503)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 340 735 L 540 350 L 740 735" stroke="#FFFFFF" stroke-width="92"/>
+    <path d="M 404 616 L 676 616" stroke="#25D366" stroke-width="92"/>
+  </g>
+
+  <g font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" fill="#FFFFFF">
+    <text x="420" y="235" font-size="120" font-weight="600" letter-spacing="4">ALTURA</text>
+    <text x="424" y="305" font-size="46" font-weight="400" letter-spacing="10" fill="#9AA0A8">INMOBILIARIA</text>
+  </g>
+</svg>

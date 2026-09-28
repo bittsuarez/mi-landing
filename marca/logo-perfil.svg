@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Altura Inmobiliaria">
+  <rect width="1080" height="1080" fill="#16181C"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- La "A" como techo: dos aguas que suben -->
+    <path d="M 340 735 L 540 350 L 740 735" stroke="#FFFFFF" stroke-width="92"/>
+    <!-- Travesaño: el acento de marca -->
+    <path d="M 404 616 L 676 616" stroke="#25D366" stroke-width="92"/>
+  </g>
+</svg>
